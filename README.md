@@ -26,3 +26,8 @@ npm install --save prop-types
 ```
 
 4. `jquery`
+
+### Start
+```
+npm start
+```
