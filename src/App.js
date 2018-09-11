@@ -23,8 +23,8 @@ class App extends Component {
       cache: false,
       success: function(data){
         this.setState({todos:data}, function(){
-          console.log('Cakkback: fetch todo');
-          console.log(this.state);
+          console.log('Callback: fetch todo');
+          // console.log(this.state);
         })
       }.bind(this),
       error:function(xhr, status, err){
